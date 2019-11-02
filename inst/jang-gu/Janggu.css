@@ -1,0 +1,86 @@
+body
+{
+    background-color: black;
+    margin: 0px;
+}
+
+#img
+{
+    text-align: center;
+    background-color: black;
+    margin: 30px;
+    justify-content: center;
+}
+
+.janggu_text
+{
+    justify-content: center;
+    font-size: 95px;
+    color: white;
+    text-align: center;
+    font-family: serif;
+}
+
+.janggu_text > p
+{
+    color: rgba(250, 210, 210, 0.932);
+    font-size: 25px;
+    text-align: center;    
+    justify-content: center;
+    margin: 0px;
+}
+
+.key {
+    display: inline-block;
+    /* 애니메이션 속도 */
+	transition: all ease-in-out .042s;
+	position: absolute;
+	background: rgb(255, 228, 228);
+    font-size: 1.5em;
+    font-family: 'HY견고딕';
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    border-radius: 3px;
+    border: 3px solid rgba(248, 220, 182, 0.829);
+    color: #444;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.65);
+}
+
+.key.dung {
+        top: 400px;
+        left: 750px;
+}
+
+.key.gi {
+
+    top:270px;
+    right: 390px;
+}
+
+.key.duck {
+    top: 400px;
+    right: 300px;
+}
+
+.key.kung {
+    bottom: 210px;
+    left: 415px;
+}
+
+.key.durr {
+    top: 200px;
+    right: 450px;
+}
+
+.key.ssu {
+    top: 650px;
+    right: 600px; 
+}
+
+div.playing
+{
+    background-color: rgba(245, 140, 140, 0.651);
+    transform: scale(1.3);
+    box-shadow: 0px 5px 10px 5px rgba(122, 119, 119, 0.829);
+}

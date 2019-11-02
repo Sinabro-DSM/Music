@@ -1,0 +1,120 @@
+
+.text {
+    color: white;
+}
+
+.Itext {
+    display: flex;
+    position: absolute;
+    bottom: 28px;
+    left: 233px;
+    background: black;
+    width: 320px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.Itext span {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    color: white;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #123;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.press-button {
+    all: unset;
+    font-size: 40px;
+    color: rgb(5, 4, 4);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    border: 3px solid black;
+}
+
+.press-buttonS {
+    all: unset;
+    font-size: 40px;
+    color: rgb(5, 4, 4);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    z-index: 1;
+    width: 150px;
+    height: 50px;
+    border-radius: 100px;
+    border: 3px solid black;
+}
+
+.content img {
+    z-index: -1;
+}
+
+#left-smallCrash {
+    left: 430px;
+    top: 190px;
+}
+
+#left-crash {
+    left: 270px;
+    top: 250px;
+}
+
+#left-close {
+    top: 460px;
+    left: 155px;
+}
+
+#right-crash {
+    top: 190px;
+    right: 400px;
+}
+
+#right-ride {
+    top: 250px;
+    right: 230px;
+}
+
+#right-china {
+    top: 410px;
+    right: 220px;
+}
+
+#left-tom {
+    top: 335px;
+    left: 530px;
+}
+
+#right-tom {
+    top: 335px;
+    left: 720px;
+}
+
+#base-drum {
+    bottom: 100px;
+    right: 530px;
+}
+
+#snare-drum {
+    bottom: 210px;
+    left: 470px;
+}
+
+#floor-tom {
+    right: 340px;
+    bottom: 160px;
+}

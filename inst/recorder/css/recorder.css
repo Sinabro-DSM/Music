@@ -1,0 +1,115 @@
+body {
+    width: 1300px;
+    margin: 0 auto;
+}
+#info {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+#info > p {
+    margin: 0 20px;
+}
+#info > p > span {
+    display: inline-block;
+    font-size: 25px;
+}
+#recorder {
+    position: relative;
+}
+#recorderImage {
+    width: 1300px;
+    z-index: -1;
+}
+#source {
+    font-size: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#lastTyping {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 25px;
+}
+#mainHole {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    margin: 0 auto;
+}
+.holes {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.holesButton {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #dddddd;
+    border-radius: 50%;
+    background-color: #dddddd;
+}
+.lowDo .holes button {
+    background-color: red !important;
+}
+.re .holes button {
+    background-color: red;
+}
+.re .holes:nth-child(1) button {
+    background-color: #dddddd !important;
+}
+.mi .holes button {
+    background-color: red;
+}
+.mi .holes:nth-child(1) button,
+.mi .holes:nth-child(2) button {
+    background-color: #dddddd !important;
+}
+.fa .holes button {
+    background-color: red;
+}
+.fa .holes:nth-child(1) button,
+.fa .holes:nth-child(2) button,
+.fa .holes:nth-child(3) button {
+    background-color: #dddddd !important;
+}
+.so .holes button {
+    background-color: red;
+}
+.so .holes:nth-child(1) button,
+.so .holes:nth-child(2) button,
+.so .holes:nth-child(3) button,
+.so .holes:nth-child(4) button {
+    background-color: #dddddd !important;
+}
+.la .holes button {
+    background-color: #dddddd;
+}
+.la .holes:nth-child(8) button,
+.la .holes:nth-child(7) button,
+.la .holes:nth-child(6) button {
+    background-color: red !important;
+}
+.ti .holes button {
+    background-color: #dddddd;
+}
+.ti .holes:nth-child(8) button,
+.ti .holes:nth-child(7) button {
+    background-color: red !important;
+}
+.highDo .holes:nth-child(8) button,
+.highDo .holes:nth-child(6) button {
+    background-color: red !important;
+}
+.lastHole {
+    position: absolute;
+    top: 60px;
+    right: 40px;
+}
